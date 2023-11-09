@@ -1,0 +1,59 @@
+{
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"breadcrumbs.symbolPath": "on",
+	"breadcrumbs.symbolSortOrder": "position",
+	"css.customData": [".vscode/tailwind.json"],
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true,
+		"source.fixAll.eslint": true,
+		"source.organizeImports": true
+	},
+	"editor.cursorBlinking": "expand",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.cursorStyle": "line",
+	"editor.cursorWidth": 4,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.fontFamily": "'Cascadia Code',Consolas, 'Courier New', monospace",
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnSaveMode": "file",
+	"editor.formatOnType": true,
+	"editor.guides.bracketPairs": true,
+	"editor.guides.bracketPairsHorizontal": true,
+	"editor.linkedEditing": true,
+	"editor.minimap.autohide": false,
+	"editor.minimap.maxColumn": 60,
+	"editor.minimap.scale": 1,
+	"editor.minimap.side": "right",
+	"editor.minimap.size": "fit",
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"editor.wordWrap": "wordWrapColumn",
+	"editor.wordWrapColumn": 80,
+	"editor.wrappingIndent": "same",
+	"eslint.format.enable": true,
+	"files.associations": {
+		"*.css": "tailwindcss",
+		"*.json": "json"
+	},
+	"files.autoSave": "onFocusChange",
+	"json.sortOnSave.enable": true,
+	"scss.lint.unknownAtRules": "ignore",
+	"tailwindCSS.experimental.classRegex": [
+		["ui:\\s*{([^)]*)\\s*}", "[\"'`]([^\"'`]*).*?[\"'`]"],
+		["/\\*ui\\*/\\s*{([^;]*)}", ":\\s*[\"'`]([^\"'`]*).*?[\"'`]"]
+	],
+	"tailwindCSS.experimental.configFile": "tailwind.config.ts",
+	"tailwindCSS.includeLanguages": {
+		"css": "css",
+		"html": "html",
+		"javascript": "javascript"
+	},
+	"terminal.integrated.cursorBlinking": false,
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.cursorWidth": 4,
+	"terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font"
+}
